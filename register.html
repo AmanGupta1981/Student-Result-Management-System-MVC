@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Registration</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="form-card">
+
+        <h1>📝 Student Registration</h1>
+
+        <p class="subtitle">
+            Create your student account to access results
+        </p>
+
+        <form action="http://localhost:8080/StudentPortal/RegistrationController">
+
+            <label>Student ID</label>
+            <input type="text"
+                   name="id"
+                   placeholder="Enter Student ID"
+                   required>
+
+            <label>Full Name</label>
+            <input type="text"
+                   name="name"
+                   placeholder="Enter Full Name"
+                   required>
+
+            <label>Marks 1</label>
+            <input type="number"
+                   name="marks1"
+                   placeholder="Enter Marks"
+                   required>
+
+            <label>Marks 2</label>
+            <input type="number"
+                   name="marks2"
+                   placeholder="Enter Marks"
+                   required>
+
+            <label>Marks 3</label>
+            <input type="number"
+                   name="marks3"
+                   placeholder="Enter Marks"
+                   required>
+
+            <label>Email Address</label>
+            <input type="email"
+                   name="email"
+                   placeholder="Enter Email"
+                   required>
+
+            <label>Phone Number</label>
+            <input type="text"
+                   name="phone"
+                   placeholder="Enter Phone Number"
+                   required>
+
+            <label>Password</label>
+            <input type="password"
+                   name="password"
+                   placeholder="Create Password"
+                   required>
+
+            <input type="submit" value="REGISTER">
+
+        </form>
+
+        <div class="bottom-link">
+            Already Registered?
+            <a href="login.html">Login Here</a>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
